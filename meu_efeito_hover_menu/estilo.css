@@ -1,0 +1,64 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24/06/2018, 14:44:48
+    Author     : daniel
+*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0;
+    list-style-type:none;
+    max-width: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+}
+
+
+
+a{text-decoration: none;}
+a img{border: 0;}
+ul{list-style: none;}
+img{max-width: 100%;vertical-align: middle; border: none; }
+.clear{clear: both;}
+
+body{
+    background-image: url('book.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+ul{
+   
+}
+ul li{
+  float: left;
+width: 200px;
+height: 40px;
+background-color: black;
+opacity: 0.8;
+line-height: 40px;
+text-align: center;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+ul li a:hover{
+background-color: green;
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+   display: block; 
+}

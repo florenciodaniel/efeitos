@@ -1,0 +1,62 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 02/09/2018, 06:11:19
+    Author     : daniel
+*/
+
+
+* {
+	margin:0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+      box-sizing: border-box;
+	
+}
+body{
+   background-color: black;
+   
+}
+.shadow{
+    position: relative;
+    margin: 200px auto;
+    width: 400px;
+    height: 250px;
+    background: linear-gradient(0deg, #000, #262626);
+}
+.shadow:before, .shadow:after{
+content: '';
+position: absolute;
+top: -10px;
+left: -10px;
+background: linear-gradient(45deg, rgba(0,128,128,1) 0%, rgba(255,255,255,1) 25%, rgba(5,193,255,1) 50%, rgba(255,255,255,1) 75%, rgba(0,87,87,1) 100%);  
+/* pode ser uma img
+background-image: url(../img/2760FR.jpg);
+*/
+background-size: 100%;
+width: calc(100% + 20px);
+height: calc(100% + 20px);
+z-index: -1;
+animation: animate 6s linear infinite;
+filter: blur(20 px);
+}
+
+/* aqui seria uma animação*/
+/*.shadow:after{
+      filter: blur(20 px);
+}
+@keyframes animate{
+    0%{
+        backgroud-position:0 0;
+    }
+        50%{
+        backgroud-position:300% 0;
+    }
+        100%{
+        backgroud-position:0 0;
+    }
+}*/

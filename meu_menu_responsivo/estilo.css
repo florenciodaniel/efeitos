@@ -1,0 +1,167 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 04/09/2019, 23:50:20
+    Author     : daniel
+*/
+
+/*///////////////// RESET//////////////////////////////////////////////*/
+* {
+   padding:0;
+   margin:0;
+   vertical-align:baseline;
+   list-style:none;
+   border:0;
+   list-style-type:none;
+   text-decoration: none;
+   -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+   /*  font-family: 'Karla', sans-serif;*/
+
+}
+
+/*///////////////////////////////////////////////////////////////*/
+
+#topo{
+   width: 100%;
+   height: 8vh;
+   background-color: rgb(250,250,0);
+   display: flex;
+   justify-content: space-around;
+
+}
+
+#logo{
+   height: 8vh;
+   line-height: 8vh;
+}
+#logo a{
+   font-size: 1.8em;
+   color: rgb(0,127,178);
+}
+
+#menu_img{
+   height: 8vh;
+}
+#menu_img img{
+   height: 100%;
+
+}
+
+#menu_tela_grande{
+   display: none;
+}
+
+#menu_tela_pequena{
+   width: 100%;
+   height: 92vh;
+   text-align: center;
+   position: absolute;
+   visibility: hidden;
+   transition: all 0.5s ease-out;
+   display: flex;
+   flex-direction: column;
+   background-color: rgb(250,250,0);
+
+}
+
+#menu_tela_pequena.active {
+   visibility: visible;
+      
+}
+
+
+.ulbarp{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.ulbarp .libarp{
+   font-size: 45px;
+   margin-top: 10px;
+   color: rgb(0,127,178);
+
+}
+
+.ulbar2{
+   display: none;
+}
+
+
+.praclicar{
+}
+.pramostrar{
+   visibility: hidden;
+}
+.pramostrar.ulbar2.mostrado{
+   visibility: visible;
+   display: block;
+}
+.pramostrar.ulbar2.desativar{
+   display: none;
+}
+
+/*/////////////MEDIA QUERIES INICIO//////////////*/
+
+/*MENOR QUE 786*/
+
+/*768 px*/
+@media only screen and (min-width: 48em) {
+   #menu_img{
+      display: none;
+   }
+   #menu_tela_pequena{
+      display: none;
+   }
+   #menu_tela_grande{
+      display: flex;
+
+   }
+
+   .ulbarg{
+
+   }
+   .ulbarg .libarg{
+      float: left;
+
+      width: 150px;
+      height: 8vh;
+      
+      text-align: center;
+   }
+   .ulbarg .libarg a{
+      text-decoration: none;
+      color: white;
+      display: block;
+      color: rgb(0,127,178);
+      font-size: 30px;
+      line-height: 8vh;
+   }
+   .ulbarg .libarg a:hover{
+      background-color: green;
+   }
+   .ulbarg .libarg .ulbarg .libarg{
+      display: none;
+   }
+   .ulbarg .libarg:hover .ulbarg .libarg{
+      display: flex;
+      flex-direction: column;
+      background-color: red;
+      position: relative;
+   }
+
+}
+/*1024 px*/
+@media only screen and (min-width: 64em) {
+
+
+}
+
+
+/*1200 px*/
+@media only screen and (min-width: 75em) {
+
+
+}

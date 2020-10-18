@@ -1,0 +1,99 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30/04/2019
+    Author     : daniel
+*/
+/* Google Fonts */
+/*@import url('https://fonts.googleapis.com/css?family=Karla:400,700');*/
+
+/* Global */
+
+/*///////////////// RESET//////////////////////////////////////////////*/
+* {
+  padding:0;
+  margin:0;
+  vertical-align:baseline;
+  list-style:none;
+  border:0;
+  list-style-type:none;
+
+  -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+/*  font-family: 'Karla', sans-serif;*/
+
+}
+
+/*///////////////// BOOT //////////////////////////////////////////////*/
+.clear{clear: both;}
+a{
+  text-decoration: none;
+  list-style: none;
+  cursor: pointer;
+}
+a:hover{
+  text-decoration: none;
+  list-style: none;
+  cursor: pointer;
+}
+hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 5px;
+  background-color: black;
+}
+
+/*classe para altura minima do site*/
+.alturaminima{
+  min-height: 90vh;
+}
+/*alinhamento do texto*/
+.text_cent{text-align: center;}
+.text_start{text-align: start;}
+.text_end{text-align: end;}
+.text_jus{text-align: justify;}
+.text_left{text-align: left;}
+.text_right{text-align: right;}
+
+/*tamanho da fonte*/
+.font_1{font-size: 10px;}
+.font_2{font-size: 12px;}
+.font_3{font-size: 14px;}
+.font_4{font-size: 16px;}
+.font_5{font-size: 18px;}
+.font_6{font-size: 20px;}
+.font_7{font-size: 22px;}
+.font_8{font-size: 24px;}
+.font_9{font-size: 26px;}
+.font_10{font-size: 28px;}
+.font_11{font-size: 30px;}
+
+/*cores da fonte*/
+.font_black{color: black;}
+.font_white{color: white;}
+
+/*tipos de fonte*/
+
+
+
+/*principais backgroud colors*/
+.back_black{background-color: black;}
+.back_white{background-color: white;}
+.back_red{background-color: red;}
+.back_blue{background-color: blue;}
+.back_oran{background-color: orange;}
+.back_oranged{background-color: orangered;}
+.back_grey{background-color: gray;}
+.back_green{background-color: green;}
+.back_greened{background-color: greenyellow;}
+
+/*flex*/
+.flex{display: flex;}
+.inflex{display: inline-flex;}
+.flexCol{ display: flex; flex-direction: column;}

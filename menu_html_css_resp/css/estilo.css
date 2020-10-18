@@ -1,0 +1,141 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+
+.inp{
+  display: none;
+}
+.hea{
+  width: 100%;
+  background-color: blue;
+}
+.lab{
+}
+.lab:hover{
+  
+}
+.lab img{
+  padding: 3px;
+  width: 40px;
+  cursor: pointer;
+}
+.navi{
+  width: 100%;
+}
+.ull{
+  width: 100%;
+  display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-pack: start;
+    -moz-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+    -webkit-box-align: start;
+    -moz-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    padding: 10px;
+    background-color: orangered;
+    display: inline-block; 
+}
+.lii{
+  background-color: yellow;
+  list-style: none;
+  margin: 10px;
+  
+  
+}
+.hef{
+  text-decoration: none;
+  padding: 15px;
+  padding-top: 35px;
+  
+}
+.navi .ull{
+ 
+}
+
+.inp:checked ~ .navi .ull{
+  background: linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(0,255,255,1) 100%); /* w3c */
+}
+
+/*768 px*/
+@media only screen and (min-width: 48em) {
+/*.inp{
+  display: none;
+  background-color: yellow;
+}
+.hea{
+  background-color: blue;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.lab{
+  color: black;
+  display: block;
+  width: 20px;
+  border-right: 1px solid red;
+  display: none;
+  background-color: pink;
+}
+.hea .lab:hover{
+  background-color: orange;
+}
+.lab img{
+  width: 20px;
+  display: none;
+}
+.navi .ull{
+  list-style: none;
+  display: flex;
+}
+.navi .lii .hef{
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  border-right: 1px solid red;
+}
+.navi .lii .hef:hover{
+background-color: greenyellow;
+}*/
+
+
+
+}
+
+
+/*1024 px*/
+@media only screen and (min-width: 64em) {
+  
+  
+}
+
+
+/*1200 px*/
+@media only screen and (min-width: 75em) {
+  
+  
+}

@@ -1,0 +1,35 @@
+
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  background-image: url(../img/Dominique-Swain-3.jpg);
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+h2{
+  text-align: center;
+  font-size: 55px;
+  color: white;
+  text-shadow: 2px 2px 2px orange;
+}
+.label{
+  text-align: center;
+  font-size: 35px;
+  color: red;
+  text-shadow: 2px 2px 2px white;
+}
+.inpu{
+  margin: 0 auto;
+  text-align: center;
+  
+}
+input{
+  font-size: 30px;
+  width: 600px;
+  border-radius: 8px;
+  margin-top: 25px;
+}

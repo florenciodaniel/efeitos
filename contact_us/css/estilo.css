@@ -1,0 +1,79 @@
+
+
+body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      width: 100%;
+      background: linear-gradient(180deg, rgba(186,221,255,1) 0%, rgba(186,221,255,1) 38%, rgba(5,193,255,1) 70%, rgba(5,193,255,1) 100%); /* w3c */
+}
+.wrapper{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 500px;
+  padding: 40px;
+  box-sizing: border-box;
+  background-color: white;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+.wrapper h2{
+  color: grey;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.input-field{
+  position: relative;
+  width: 100%;
+  margin-top: 50px;
+}
+.input-field input{
+  width: 100%;
+  padding: 5px 0;
+  box-sizing: border-box;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid grey;
+  font-size: 16px;
+  color: grey;
+  font-weight: bold;
+}
+.input-field label{
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 5px 0;
+  pointer-events: none;
+  font-size: 16px;
+  color: grey;
+  transition: 0.5s;  
+}
+.input-field input:focus + label,
+.input-field input:valid + label{
+  top: -25px;
+  font-size: 14px;
+  padding: 2px 5px;
+  background-color: orangered;
+  color: white;
+  border-radius: 4px;
+}
+.sub-btn{
+  margin-top: 20px;
+  background-color: blue;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.sub-btn:hover{
+  background-color: orangered;
+  
+}
+

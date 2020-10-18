@@ -1,0 +1,98 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 02/09/2018, 06:11:19
+    Author     : daniel
+*/
+
+
+* {
+	margin:0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	
+}
+body{
+   background-color: black;
+   
+}
+.topoContainer{
+ width: 100%;
+ max-width: 100%;
+ height: 40px;
+ background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(153,153,153,0) 9%, rgba(255,255,255,0) 15%);
+ display: flex;
+ display: scroll;
+ position: absolute;
+ position: fixed;
+ z-index: 2000;
+
+}
+.topoContainer_fixo{
+ width: 100%;
+ max-width: 100%;
+ height: 40px;
+ background-color: black;
+ display: flex;
+ display: scroll;
+ position: absolute;
+ position: fixed;
+ z-index: 2000;
+
+}
+
+
+.menu{
+   width: 100%;
+display: flex;
+ flex-flow: row wrap;
+ justify-content: center;
+}
+.menu ul{
+  display: flex;
+list-style: none;
+justify-content: center;
+}
+.menu ul li{
+list-style: none;
+line-height: 40px;
+font-size: 25px;
+padding-left: 30px;
+text-shadow: black 2px 2px 3px;
+}
+.menu ul li a{
+
+ color: rgba(255, 255, 255,1);
+}
+.menu ul li a:hover{
+
+ color: rgba(255, 61, 17,1);
+}
+.foto1{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../ab.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.foto2{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../ad.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.foto3{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../ac.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

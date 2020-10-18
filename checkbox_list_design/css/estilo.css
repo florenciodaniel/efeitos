@@ -1,0 +1,83 @@
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+ 
+/* Global */
+
+ 
+body {
+      margin: 0;
+      padding: 0;
+      background: #222;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+}
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.cont{
+  margin: 10px;
+}
+.labe{
+  cursor: pointer;
+}
+.inp{
+  display: none;
+}
+.list{
+  position: relative;
+  display: inline-block;
+  background: blue;
+  padding: 15px 30px;
+  color: #555;
+  text-shadow:0 1px 4px rgba(0,0,0,0.5);
+  border-radius: 30px;
+  font-size: 20px;
+  transition: 0.5s;
+  user-select:none;
+  overflow: hidden;
+}
+.container .cont .labe .list:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: rgba(255,255,255,0.6);
+}
+.container .cont:nth-child(6n+1) .labe .inp:checked ~.list{
+  background: #e91e63;
+  color: #fff;
+  box-shadow: 0 2px 20px #e91e63;
+}
+.container .cont:nth-child(6n+2) .labe .inp:checked ~.list{
+  background: #3e70c1;
+  color: #fff;
+  box-shadow: 0 2px 20px #3e70c1;
+}
+
+.container .cont:nth-child(6n+3) .labe .inp:checked ~.list{
+  background: #50c431;
+  color: #fff;
+  box-shadow: 0 2px 20px #50c431;
+}
+.container .cont:nth-child(6n+4) .labe .inp:checked ~.list{
+  background: #66022b;
+  color: #fff;
+  box-shadow: 0 2px 20px #66022b;
+}
+.container .cont:nth-child(6n+5) .labe .inp:checked ~.list{
+  background: #fcff4c;
+  color: #fff;
+  box-shadow: 0 2px 20px #fcff4c;
+}
+.container .cont:nth-child(6n+6) .labe .inp:checked ~.list{
+  background: #10ba79;
+  color: #fff;
+  box-shadow: 0 2px 20px #10ba79;
+}

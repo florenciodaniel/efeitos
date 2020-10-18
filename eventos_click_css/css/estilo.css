@@ -1,0 +1,135 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+/*----------------------------*/
+main{
+  width: 80%;
+  margin: auto;
+}
+.acordeon{
+  background-color: #c3c6c9;
+}
+.acordeon a{
+
+  text-decoration: none;
+  display: block;
+  background-color: #999c9e;
+  line-height: 15px;
+  padding: 10px;
+border:1px solid black;
+}
+.acordeon p{
+
+  margin: 0;
+  padding: 10px;
+  display: none;
+
+}
+.acordeon p:target{
+  display: block;
+  color: red;
+
+}
+/*---------------*/
+
+#modal{
+  background-color: rgba(0,0,0,0.9);
+  position: fixed;
+  top:-100vh;
+
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 100; 
+ 
+}
+#modal p{
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+  margin: 20% auto;
+}
+#abrir-modal{
+  display: none;
+}
+.label-abrir{
+  display: table;
+  background-color: blue;
+  padding: 15px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+#abrir-modal:checked ~ #modal{
+  top: 0;
+transition: all 1s;
+  
+}
+#fechar-modal{
+  display: none;
+}
+.label-fechar{
+  position: relative;
+  top: -88vh;
+  right: -90%;
+  z-index: 200;
+  cursor: pointer;
+  padding: 15px;
+  color: white;
+  background-color: red;
+}
+#abrir-modal ~ #modal{
+  top: -100vh;
+transition: all 1s;
+  
+}
+
+/*--------------*/
+
+#menu{
+  
+  background-color: pink;
+  width: 100%;
+  height: 500px;
+}
+#menu ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: -50%;
+  background-color: rgba(0,0,0,0.9);
+  width: 50%;
+  height: 300px;
+  padding-top: 4em;
+}
+#menu ul a{
+  color: white;
+  text-decoration: none;
+  display: block;
+  line-height: 2.5em;
+  padding: 0 1em;
+}
+#mostrar-menu{
+  display: none;
+}
+.abrir-menu{
+ 
+  background-color: red;
+  padding: 10px;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+#mostrar-menu:checked ~ul{
+  left: 0;
+  
+  background-color: green;
+  transition:1s;
+}
+#mostrar-menu ~ul{
+  left: -50%;
+  transition:1s;
+}
+

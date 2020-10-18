@@ -1,0 +1,83 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: tahoma;
+    overflow: hidden;
+}
+section{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+section:nth-child(1){
+  background-image: url(../../assets/img/noiva.jpg);
+
+}
+section:nth-child(2){
+  background-image: url(../../assets/img/arya.jpg);
+
+}
+section:nth-child(3){
+  background-image: url(../../assets/img/lambor.jpg);
+
+}
+section:nth-child(4){
+  background-image: url(../../assets/img/fredy.jpeg);
+
+}
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+nav > div{
+  position: relative;
+  display: flex;
+  height: 30px;
+  width: 30px;
+  margin: 2px 0;
+
+}
+nav > div > span{
+  margin: auto;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: green;
+  cursor: pointer;
+
+}
+nav > div > div{
+  position: absolute;
+  display: flex;
+  top: 0;
+  left: 120%;
+  height: 100%;
+  width: 600%;
+  background-color: beige;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  font-weight: 600;
+  transition: left 800ms ease-in-out;
+  left: -600%;
+
+}
+nav > div.mulher > div{
+  left: 120%;
+}

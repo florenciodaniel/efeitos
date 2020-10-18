@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Typewriter Effect</title>
+      <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+<div class="container">
+            <nav>
+                  <input type="checkbox" id="nav" class="hidden">
+                  <label for="nav" class="nav-btn">
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                  </label>
+                  <div class="logo">
+                        <a href="#">BRAND</a>
+                  </div>
+                  <div class="nav-wrapper">
+                        <ul>
+                              <li><a href="#">Home</a></li>
+                              <li><a href="#">Overview</a></li>
+                              <li><a href="#">Prices</a></li>
+                              <li><a href="#">Purchase</a></li>
+                        </ul>
+                  </div>
+            </nav>
+      </div>
+</body>
+</html>

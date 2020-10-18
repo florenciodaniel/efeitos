@@ -1,0 +1,169 @@
+
+ @keyframes animar1 {
+            0%{
+                 position: absolute;
+                top: 30%;
+                left: 30%;
+                transform: translateX(-50%) translateY(-50%);
+               visibility: visible;
+            }
+            24%{
+               position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translateX(-50%) translateY(-50%);
+               visibility: visible;
+            }
+            25% {
+
+               visibility: hidden;
+            }
+             49% {
+
+               visibility: hidden;
+            }
+             50% {
+
+               visibility: hidden;
+            }
+             74% {
+
+               visibility: hidden;
+            }
+             75% {
+
+               visibility: hidden;
+            }
+            
+             100% {
+
+               visibility: hidden;
+            }
+        }
+      @keyframes animar2{
+            0%{
+
+               visibility: hidden;
+            }
+            25%{
+
+               visibility: hidden;
+            }
+            26% {
+                position: absolute;
+                top: 30%;
+                left: 70%;
+                transform: translateX(-50%) translateY(-50%);
+               visibility: visible;
+            }
+             49% {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translateX(-50%) translateY(-50%);
+               visibility: visible;
+            }
+             50% {
+
+               visibility: hidden;
+            }
+             74% {
+
+               visibility: hidden;
+            }
+             75% {
+
+               visibility: hidden;
+            }
+            
+             100% {
+
+               visibility: hidden;
+            }
+        }
+
+        @keyframes animar3{
+            0%{
+
+               visibility: hidden;
+            }
+            24%{
+
+               visibility: hidden;
+            }
+            25% {
+
+               visibility: hidden;
+            }
+             50% {
+
+               visibility: hidden;
+            }
+             51% {
+                position: absolute;
+                top: 70%;
+                left: 30%;
+                transform: translateX(-50%) translateY(-50%);
+               visibility: visible;
+            }
+             74% {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translateX(-50%) translateY(-50%);
+               visibility: visible;
+            }
+             75% {
+
+               visibility: hidden;
+            }
+            
+             100% {
+
+               visibility: hidden;
+            }
+        }
+        
+        
+        
+        @keyframes animar4{
+            0%{
+
+               visibility: hidden;
+            }
+            24%{
+
+               visibility: hidden;
+            }
+            25% {
+
+               visibility: hidden;
+            }
+             49% {
+
+               visibility: hidden;
+            }
+             50% {
+
+               visibility: hidden;
+            }
+             75% {
+
+               visibility: hidden;
+            }
+             76% {
+                position: absolute;
+                top: 70%;
+                left: 70%;
+                transform: translateX(-50%) translateY(-50%);
+               visibility: visible;
+            }
+            
+             100% {
+                 position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translateX(-50%) translateY(-50%);
+               visibility: visible;
+            }
+        }
