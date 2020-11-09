@@ -679,6 +679,18 @@ and open the template in the editor.
                 </div>
             </div>
             <hr><hr>
+            
+            <div class="efeito_container">
+                <h1>Checkbox</h1>
+                <p>exemplo de check box</p>
+                <p></p>
+                <iframe src="checkbox/index.php"></iframe>
+                <div class="links">
+                    <button><a href="checkbox/index.php">veja o efeito</a></button>
+                    <button><a href="https://codepen.io/fevooduck/pen/XWKBKvm?fbclid=IwAR1ZgeWzNhRZ44j9XCQez-fstjBA5rulTEX2mWSmmHyjYyavV617sPOBclM" rel="nofollow" target="_blank">Link do Youtube</a></button>
+                </div>
+            </div>
+            <hr><hr>
 
 
 
